@@ -1,5 +1,5 @@
 # EXP 4: Single server with infinite capacity (M/M/1):(oo/FIFO)
-## Date:13.10.23
+## Date:09.11.24
 ## Aim :
 To find (a) average number of materials in the system (b) average number of materials in the conveyor (c) waiting time of each material in the system (d) waiting time of each material in the conveyor, if the arrival  of materials follow poisson process with the mean interval time 12 seconds, serivice time of lathe machine follows exponential distribution with mean serice time 1 second and average service time of robot is 7seconds.
 
@@ -13,21 +13,22 @@ This is a queuing model in which the arrival is Marcovian and departure distribu
 
 ## Procedure :
 
-![280448588-2552598a-8a47-4f2b-89a2-5e483a60270a](https://github.com/PriyankaAnnadurai/Single-server-infinite-capacity---Markov-Model/assets/118351569/e11d8312-88ba-42f1-8a26-16663160ee78)
+![Screenshot 2024-12-20 133706](https://github.com/user-attachments/assets/7d698a03-8f92-492f-8354-e68f26bb1728)
+
 
 
 
 ## Experiment:
 
+![Screenshot 2024-12-20 133626](https://github.com/user-attachments/assets/dea8232c-d4b8-484e-84da-574a01f346b8)
 
-![277121885-b66a5855-0147-4465-9fd3-87f0f5427fbb](https://github.com/PriyankaAnnadurai/Single-server-infinite-capacity---Markov-Model/assets/118351569/558bdff0-948e-4244-960f-3cc482dffa6c)
 
 
  
 ## Program
 ```py
-Developed by : Priyanka.A
-Register number : 212222230113
+Developed by : LUKESH M
+Register number : 24901128
 
 arr_time=float(input("Enter the mean inter arrival time of objects from Feeder (in secs): "))
 ser_time=float(input("Enter the mean  inter service time of Lathe Machine (in secs) :  "))
@@ -55,7 +56,8 @@ else:
 print("---------------------------------------------------------------")
 ```
 ## Output :
-![280448553-666f9352-af07-4450-b8f7-a99b7f25cddc](https://github.com/PriyankaAnnadurai/Single-server-infinite-capacity---Markov-Model/assets/118351569/0677c057-130c-4d92-acb3-f6ec73646bfc)
+![Screenshot 2024-12-20 133644](https://github.com/user-attachments/assets/926e728a-09a9-4d3f-8ca5-5e686d775070)
+
 
 
 ## Result :
